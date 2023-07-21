@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import DataProvider from "./context/dataProvider.jsx";
+import DataProvider from "./context/DataProvider.jsx";
 import { BrowserRouter } from "react-router-dom";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -11,5 +11,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <App />
       </DataProvider>
     </BrowserRouter>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
